@@ -5,14 +5,6 @@ __pycache__/
 *.pyd
 *.so
 
-# Outputs
-outputs/
-*.pth
-*.png
-*.pdf
-*.txt
-*.csv
-
 # Virtual environment
 venv/
 .venv/
