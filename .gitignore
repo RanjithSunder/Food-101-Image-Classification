@@ -1,25 +1,32 @@
-# Python
+# ---- Python cache / bytecode ----
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.so
 
-# Virtual environment
+# ---- Virtual environments ----
 venv/
 .venv/
 
-# IDE
+# ---- Jupyter / temp ----
+.ipynb_checkpoints/
+*.log
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
 .vscode/
 .idea/
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Archives
-*.zip
-*.tar.gz
-
-# Streamlit cache
-.streamlit/
+# ---- OPTIONAL: If you *don't* want to commit large training artifacts,
+# you COULD ignore them like this:
+# *.pth
+# *.pdf
+# *.png
+# *.csv
+# BUT you said you WANT Phase_1_outputs & Phase_2_outputs in Git,
+# so we do NOT ignore these globally.
+#
+# Also IMPORTANT: do NOT ignore these folders:
+# Phase_1_outputs/
+# Phase_2_outputs/
